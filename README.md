@@ -14,5 +14,5 @@ It shows basic information about a gym, including:
 ### Step 1: Download the project
 
 ```bash
-git clone https://github.com/Nahal023/gym-management-system.git
+git clone https://github.com/Nahal023/Gym-website.git
 cd gym-management-system
