@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Arena</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+  <div class="top-nav">
+    <a href="#home" class="nav-btn">Home</a>
+      <a href="#about us" class="nav-btn">About Us</a>
+      <a href="#membership" class="nav-btn">Membership</a>
+  </div>
+    <div class="hero-section">
+     <div class="overlay"></div>
+        <div class="content">
+            <h1>Reach Your Fitness Goals with Us!</h1>
+            <p2>Experience a high-energy, supportive environment tailored for all fitness levels. Our gym empowers you to achieve your personal best with expert guidance and top-notch facilities.</p2>
+            <a href="#" class="join-btn">Join now</a>
+        </div>
+    </div>
+
+<section id="about" class="about-section">
+    <div class="container">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <h3>Our History</h3>
+            <p>
+                Founded in 2010, Fitness Arena started as a small local gym with a big vision. 
+                Over the years, we've grown into a full-service fitness center, known for our 
+                supportive community, professional trainers, and state-of-the-art equipment.
+            </p>
+
+            <h3>Our Mission</h3>
+            <p>
+                Our mission is to empower individuals of all fitness levels to lead healthier lives. 
+                We provide a safe, inspiring space where people can pursue their personal wellness goals 
+                through expert guidance, encouragement, and innovation.
+            </p>
+        </div>
+    </div>
+</section>
+ <div class="about-image">
+<img src="{{ url_for('static', filename='images/1.png') }}" alt="Our Gym" />
+</div>
+<!-- Membership Section -->
+<section id="membership" class="membership-section">
+  <div class="container">
+    <h2>Membership Plans</h2>
+    
+    <div class="plans">
+      <!-- Basic Plan -->
+      <div class="plan">
+        <h3>Basic Plan</h3>
+        <p class="price">$29 / month</p>
+        <ul>
+          <li>Access to gym equipment during staffed hours</li>
+          <li>Free fitness assessment</li>
+          <li>Group classes - 2 per week</li>
+        </ul>
+        <a href="#" class="join-btn">Join Now</a>
+      </div>
+
+      <!-- Standard Plan -->
+      <div class="plan">
+        <h3>Standard Plan</h3>
+        <p class="price">$49 / month</p>
+        <ul>
+          <li>24/7 gym access</li>
+          <li>Unlimited group classes</li>
+          <li>One personal training session per month</li>
+          <li>Sauna and steam room access</li>
+        </ul>
+       <a href="#" class="join-btn">Join Now</a>
+      </div>
+
+      <!-- Premium Plan -->
+      <div class="plan">
+        <h3>Premium Plan</h3>
+        <p class="price">$79 / month</p>
+        <ul>
+          <li>All Standard Plan benefits</li>
+          <li>Unlimited personal training sessions</li>
+          <li>Nutrition consultation</li>
+          <li>Access to VIP lounge</li>
+        </ul>
+       <a href="#" class="join-btn">Join Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  © 2025 Fitness Arena Gym. All rights reserved.
+</footer>
+
+</body>
+</html>
